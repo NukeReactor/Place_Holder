@@ -63,6 +63,33 @@ html, body {
 	font-size: 16px;
 }
 
+.hidden {
+	background: linear-gradient(#3f3f3f, #111111);
+}
+
+.hidden .showMenu {
+	color: white;
+	text-decoration: none;
+	background: linear-gradient(#3f3f3f, #111111);
+	border: none;
+	padding: 20px 15px;
+	font-size: 16px;
+	font-weight: bold;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	outline: none;
+}
+
+.hidden .showMenu:hover {
+	color: #909090;
+	background: linear-gradient(#303030, #000000);
+}
+
+.hidden .showMenu:active {
+	color: #959595;
+	background: linear-gradient(#101010, #000000);
+}
+
 .img1, .img2, .img3, .img4 {
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -135,18 +162,10 @@ html, body {
 }
 
 .bottom ul li a {
-	color: white;
+	color: #3f3f3f;
 	text-decoration: none;
-	padding-right: 4px;
-	padding-left: 4px;
-}
-
-.bottom ul li a:first-child {
-	padding-left: 0;
-}
-
-.bottom ul li a:last-child {
-	padding-right: 0;
+	padding-right: 8px;
+	padding-left: 8px;
 }
 
 .bottom ul li a:hover {
