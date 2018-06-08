@@ -64,6 +64,7 @@ html, body {
 
 .hidden {
 	background: linear-gradient(#3f3f3f, #111111);
+	text-align: center;
 }
 
 .hidden .showMenu {
