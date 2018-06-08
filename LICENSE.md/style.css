@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
-html, body{ 
+html, body { 
 	height: 75%;
 	margin: 0;
 	font-size: 20px;
@@ -44,6 +44,7 @@ html, body{
 	-webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
   float: left;
+  outline: none;
 }
 
 .navbarItems li button:hover {
@@ -54,7 +55,12 @@ html, body{
 .navbarItems li button:active {
 	color: #959595;
 	background: linear-gradient(#101010, #000000);
-	outline: none;
+}
+
+.navbarItems li button a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
 }
 
 .img1, .img2, .img3, .img4 {
@@ -111,4 +117,38 @@ html, body{
 
 .info {
 	color: white;
+}
+
+.bottom {
+	background-color: #111111;
+	font-size: 12px;
+	text-align: center;
+	margin: 0;
+}
+
+.bottom ul {
+	list-style-type: none;
+}
+
+.bottom ul li {
+	display: inline;
+}
+
+.bottom ul li a {
+	color: white;
+	text-decoration: none;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+.bottom ul li a:first-child {
+	padding-left: 0;
+}
+
+.bottom ul li a:last-child {
+	padding-right: 0;
+}
+
+.bottom ul li a:hover {
+	color: blue;
 }
