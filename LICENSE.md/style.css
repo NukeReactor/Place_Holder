@@ -154,6 +154,12 @@ html, body {
 	color: #999;
 }
 
+#phButton:active {
+	background-color: #555;
+	color: #aaa;
+	font-size: 1.2em;
+}
+
 .foreground {
 	padding: 30px;
 	background-color: #111111;
