@@ -151,12 +151,10 @@ html, body {
 
 #phButton:hover {
 	background-color: #333333;
-	color: #999;
 }
 
 #phButton:active {
 	background-color: #555;
-	color: #aaa;
 	font-size: 1.2em;
 }
 
