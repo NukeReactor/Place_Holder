@@ -41,9 +41,9 @@ html, body {
 	font-size: 16px;
 	font-weight: bold;
 	-webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  float: left;
-  outline: none;
+  	transition-duration: 0.2s;
+  	float: left;
+  	outline: none;
 }
 
 .navbarItems li button:hover {
@@ -90,7 +90,7 @@ html, body {
 	background: linear-gradient(#101010, #000000);
 }
 
-.img1, .img2, .img3, .img4 {
+.img1, .img2, .img3, .img4, .abtImg1 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -118,6 +118,11 @@ html, body {
 	min-height: 400px;
 }
 
+.abtImg1 {
+	background-image: url(about.jpg);
+	min-height: 400px;
+}
+
 .border, .border2, .border3, .border4 {
 	background-color: #111;
 	color: #fff;
@@ -125,7 +130,7 @@ html, body {
 	padding: 20px;
 }
 
-.imgtxt, .imgtxt2, .imgtxt3, .imgtxt4 {
+.imgtxt, .imgtxt2, .imgtxt3, .imgtxt4, .abtImgTxt {
 	position: absolute;
 	top: 50%;
 	width: 100%;
